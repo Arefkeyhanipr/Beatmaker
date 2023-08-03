@@ -10,7 +10,7 @@ class Drumkit {
     this.bpm = 150;
   }
   activePad() {
-    this.classList.toggle(".active");
+    this.classList.toggle("active");
   }
   repeat() {
     let step = this.index % 8;

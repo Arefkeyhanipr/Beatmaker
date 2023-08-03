@@ -83,14 +83,14 @@ select,
 }
 
 .kick-pad {
-  background: #09868b;
+  background: #289ca0;
 }
 
 .snare-pad {
-  background-color: #e1b382;
+  background-color: #c19b72;
 }
 .hihat-pad {
-  background: #608074;
+  background: #48886f;
 }
 
 .kick,
@@ -110,11 +110,11 @@ select,
 }
 
 .kick-pad.active {
-  color: #76c1d4;
+  background: #1c5b5d;
 }
 .snare-pad.active {
-  color: rgb(102, 33, 33);
+  background: #7a6146;
 }
 .hihat-pad.active {
-  color: #5b966c;
+  background: #355e4f;
 }
