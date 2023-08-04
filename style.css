@@ -118,3 +118,12 @@ select,
 .hihat-pad.active {
   background: #355e4f;
 }
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
