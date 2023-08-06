@@ -35,6 +35,12 @@ svg {
   flex: 1;
   margin: 0 2rem;
 }
+.controls h1 {
+  font-size: 2.8rem;
+  background: -webkit-linear-gradient(#ffffff, #eee3e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .controls button {
   padding: 1rem;
