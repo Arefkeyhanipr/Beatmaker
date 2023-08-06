@@ -72,6 +72,11 @@ select,
 .play {
   border-radius: 5px;
 }
+
+.mute.active {
+  background: rgb(63, 62, 62);
+}
+
 /* Kick and Snare and Hihat */
 .kick-pad,
 .snare-pad,
