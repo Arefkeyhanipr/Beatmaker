@@ -57,10 +57,10 @@ class Drumkit {
   }
   updateBtn() {
     if (this.isPlaying) {
-      this.playBtn.innerHTML = "Play";
+      this.playBtn.innerHTML = `Play <i class="fa-solid fa-play"></i>`;
       this.playBtn.classList.remove("active");
     } else {
-      this.playBtn.innerText = "Stop";
+      this.playBtn.innerHTML = `Pause <i class="fa-solid fa-pause"></i>`;
       this.playBtn.classList.add("active");
     }
   }
